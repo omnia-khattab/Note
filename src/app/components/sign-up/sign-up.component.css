@@ -1,0 +1,29 @@
+#signUp{
+    min-height:100vh;
+    background-color: #343A40 !important;
+}
+#signUp .form{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    width:75%;
+    transform: translate(-50%,-50%);
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: rgba(232, 237, 241, 0.8);
+}
+@media screen and (max-width:1028px){
+    
+    #signUp .form{
+        width:90%
+    }
+
+}
+/*#txt{
+    position: absolute;
+    top:-2%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: 800;
+    color: #fff;
+}*/
